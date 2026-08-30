@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:iron_golem",
+      "materials": {
+        "default": "iron_golem"
+      },
+      "textures": {
+        "default": "textures/entity/iron_golem/iron_golem",
+        "cracked_high": "textures/entity/iron_golem/cracked_high",
+        "cracked_med": "textures/entity/iron_golem/cracked_medium",
+        "cracked_low": "textures/entity/iron_golem/cracked_low",
+        "cracked_none": "textures/entity/iron_golem/cracked_none"
+      },
+      "geometry": {
+        "default": "geometry.iron_golem"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);",
+          "variable.attack_time = math.sin(variable.attack_time * 25);",
+          "variable.eye_target_x = query.target_y_rotation - this;",
+          "variable.eye_target_y = query.target_x_rotation - this;"
+        ],
+        "animate": [
+          "general",
+          "facial",
+          "look_target",
+          "damage"
+        ]
+      },
+      "animations": {
+        "base": "animation.iron_golem.base",
+        "base_cracked": "animation.iron_golem.base_cracked",
+        "base_flower": "animation.iron_golem.base_flower",
+        "base_face": "animation.iron_golem.base_face",
+        "has_target_face": "animation.iron_golem.has_target_face",
+        "death_face": "animation.iron_golem.death_face",
+        "walking": "animation.iron_golem.walking",
+        "walking_cracked": "animation.iron_golem.walking_cracked",
+        "walking_has_target": "animation.iron_golem.walking_has_target",
+        "attack_time": "animation.iron_golem.attack_time",
+        "attack_walk": "animation.iron_golem.attack_walk",
+        "hurt": "animation.iron_golem.hurt",
+        "hurt2": "animation.iron_golem.hurt2",
+        "looking": "animation.iron_golem.looking",
+        "general": "controller.animation.iron_golem.general",
+        "facial": "controller.animation.iron_golem.facial",
+        "look_target": "controller.animation.iron_golem.look_target",
+        "damage": "controller.animation.iron_golem.damage"
+      },
+      "render_controllers": [
+        "controller.render.iron_golem",
+        "controller.render.iron_golem_cracks"
+      ]
+    }
+  }
+}

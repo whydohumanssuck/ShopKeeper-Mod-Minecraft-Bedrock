@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Created by Imagin7, v1.2 Update - patched for Minecraft 1.21.130",
+        "name": "ReMotion+",
+        "uuid": "f12b9442-ccf4-491c-ae2f-dcc1137605a0",
+        "version": [
+            1,
+            2,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            130
+        ]
+    },
+    "modules": [
+        {
+            "description": "Created by Imagin7, v1.2 Update",
+            "type": "resources",
+            "uuid": "a3b784e7-e6ba-4b69-9742-d966c7687905",
+            "version": [
+                1,
+                2,
+                1
+            ]
+        }
+    ]
+}

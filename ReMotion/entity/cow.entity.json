@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:cow",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cow" },
+      "textures": {
+        "default": "textures/entity/cow/cow"
+      },
+      "geometry": {
+        "default": "geometry.cow"
+      },
+      "animations": {
+        "base": "animation.cow.v1.8.base",
+        "walking": "animation.cow.v1.8.walking",
+        "base_face": "animation.cow.v1.8.base_face",
+        "looking": "animation.cow.v1.8.looking",
+        "death_face": "animation.cow.v1.8.death_face",
+        "hurt": "animation.cow.v1.8.hurt",
+        "baby": "animation.cow.v1.8.baby",
+        "swimming": "animation.cow.v1.8.swimming",
+        "general": "controller.animation.cow.v1.8.general",
+        "facial": "controller.animation.cow.v1.8.facial",
+        "look_target": "controller.animation.cow.v1.8.look_target",
+        "damage": "controller.animation.cow.v1.8.damage",
+        "baby_cow": "controller.animation.cow.v1.8.baby_cow"
+      },
+      "scripts": {
+        "pre_animation": [
+                  "variable.eye_target_x = query.target_y_rotation - this;",
+                  "variable.eye_target_y = query.target_x_rotation - this;"
+        ],
+        "animate": [
+          "general",
+          "facial",
+          "look_target",
+          "damage",
+          "baby_cow"
+        ]
+      },
+      "render_controllers": [ "controller.render.cow" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 1
+      }
+    }
+  }
+}
