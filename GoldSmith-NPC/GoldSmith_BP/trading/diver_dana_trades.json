@@ -1,0 +1,240 @@
+{
+    "format_version": "1.20.40",
+    "tiers": [
+        {
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:sponge",
+                                    "quantity": 4
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 4
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:wet_sponge",
+                                    "quantity": 3
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 5
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:brain_coral",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:bubble_coral",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:fire_coral",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:horn_coral",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:sea_pickle",
+                                    "quantity": 6
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:nautilus_shell",
+                                    "quantity": 2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 10
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:sea_lantern",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 2
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:prismarine_shards",
+                                    "quantity": 4
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 3
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:prismarine_crystals",
+                                    "quantity": 4
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

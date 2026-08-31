@@ -10,25 +10,35 @@
 
 Custom shop NPC addon for Minecraft Bedrock/PE 1.21.130 with native villager trade system.
 
-## NPCs Included
+## NPCs Included (14 Shopkeepers)
 
-### GoldSmith - William Roger
-- **Summon:** `/summon remotion:gold_smith`
-- Gold-themed trades: golden armor, golden apple, golden carrot, emeralds
-
-### Valerina - Fruit Seller
-- **Summon:** `/summon remotion:valerina`
-- 15 fruit/veggie trades: apples, carrots, potatoes, beetroots, melon, sweet berries, glow berries, chorus fruit, cocoa beans, cactus, sugar cane, golden apple, golden carrot, pumpkin, melon block
+| NPC | Title | Summon Command | Shop |
+|-----|-------|---------------|------|
+| William Roger | GoldSmith | `/summon remotion:gold_smith` | Gold & Armor |
+| Valerina | Fruit Seller | `/summon remotion:valerina` | Fruits & Berries |
+| Lumberjack Jack | Wood Dealer | `/summon remotion:timber_jack` | Wood |
+| Farmer Maggie | Crop Seller | `/summon remotion:farmer_maggie` | Crops |
+| Florist Lily | Flower Seller | `/summon remotion:florist_lily` | Flowers |
+| Herbalist Sage | Plant Seller | `/summon remotion:herbalist_sage` | Plants |
+| Mason Petra | Stone Seller | `/summon remotion:mason_petra` | Stone & Earth |
+| Rancher Rosa | Animal Products | `/summon remotion:rancher_rosa` | Animal Products |
+| Fisherman Finn | Meat & Fish | `/summon remotion:fisherman_finn` | Meat & Fish |
+| Diver Dana | Ocean Goods | `/summon remotion:diver_dana` | Ocean Resources |
+| Brewer Freddie | Potion Seller | `/summon remotion:brewer_freddie` | Brewing |
+| Mystic Maya | Enchanting | `/summon remotion:mystic_maya` | Enchanting & Gear |
+| Collector Chester | Rare Items | `/summon remotion:collector_chester` | Music & Rare Collectibles |
+| Trader Tessa | Emerald Exchange | `/summon remotion:trader_tessa` | Emerald Exchange |
 
 ## How to Use
 1. Download and install the `.mcaddon` file
 2. Enable both Behavior and Resource packs in your world
-3. Summon NPCs with the commands above
+3. Summon any NPC with the commands above
 4. Hold/right-click to open the native villager trade screen
 5. Hit the NPC to deal damage
 
 ## Features
 - **Native Villager Trade System** — same UI as real villagers
+- **14 Unique NPCs** — male and female shopkeepers
 - **Custom Skins** — unique look for each NPC
 - **Scrollable Trade List** — vanilla-style scrollable trade UI
 - **Takes Damage** — NPCs have 40 HP and react to hits
@@ -36,7 +46,7 @@ Custom shop NPC addon for Minecraft Bedrock/PE 1.21.130 with native villager tra
 ## Files
 - `GoldSmith_BP/` — Behavior Pack (entities, trades)
 - `GoldSmith_RP/` — Resource Pack (skins, textures)
-- `ShopKeeper_Mod_v1.0.7.mcaddon` — Ready to install
+- `ShopKeeper_Mod_v1.1.0.mcaddon` — Ready to install
 
 ## Version
-- **v1.0.7** — Native villager trade system, two NPCs, custom skins
+- **v1.1.0** — 14 NPCs, full marketplace with all shop categories

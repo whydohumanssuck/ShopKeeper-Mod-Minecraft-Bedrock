@@ -1,0 +1,324 @@
+{
+    "format_version": "1.20.40",
+    "tiers": [
+        {
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:wheat",
+                                    "quantity": 10
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:wheat_seeds",
+                                    "quantity": 12
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:carrot",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:potato",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:beetroot",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:beetroot_seeds",
+                                    "quantity": 12
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:pumpkin",
+                                    "quantity": 4
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:pumpkin_seeds",
+                                    "quantity": 10
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:melon_seeds",
+                                    "quantity": 10
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:sugar_cane",
+                                    "quantity": 6
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:cocoa_beans",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:nether_wart",
+                                    "quantity": 6
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:wheat",
+                                    "quantity": 8
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:carrot",
+                                    "quantity": 6
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:potato",
+                                    "quantity": 6
+                                }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
