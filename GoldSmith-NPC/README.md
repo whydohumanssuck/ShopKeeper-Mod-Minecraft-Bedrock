@@ -1,38 +1,34 @@
-# Gold Smith NPC Addon
+# ShopKeeper Mod : Minecraft-Bedrock
 
-A custom Gold Smith trader NPC addon for Minecraft Bedrock/PE 1.21.130.
+Custom shop NPC addon for Minecraft Bedrock/PE 1.21.130 with native villager trade system.
 
-## Features
-- **Native Villager Trade System** — Hold/right-click to open the trade screen (just like real villagers)
-- **Takes Damage** — Hit the entity and it takes damage (40 HP)
-- **9 Gold-Themed Trades** — Buy/sell gold items, emeralds, golden armor, and more
-- **Custom Skin** — Honest worker skin, no villager sounds
+## NPCs Included
+
+### GoldSmith - William Roger
+- **Summon:** `/summon remotion:gold_smith`
+- Gold-themed trades: golden armor, golden apple, golden carrot, emeralds
+
+### Valerina - Fruit Seller
+- **Summon:** `/summon remotion:valerina`
+- 15 fruit/veggie trades: apples, carrots, potatoes, beetroots, melon, sweet berries, glow berries, chorus fruit, cocoa beans, cactus, sugar cane, golden apple, golden carrot, pumpkin, melon block
 
 ## How to Use
-1. Install the `.mcaddon` file in Minecraft
+1. Download and install the `.mcaddon` file
 2. Enable both Behavior and Resource packs in your world
-3. Summon the NPC: `/summon remotion:gold_smith`
-4. Hold/right-click on him to open the trade screen
-5. Hit him to deal damage
+3. Summon NPCs with the commands above
+4. Hold/right-click to open the native villager trade screen
+5. Hit the NPC to deal damage
 
-## Trades
-| You Give | You Get |
-|----------|---------|
-| 1 Raw Gold | 1 Emerald |
-| 1 Gold Ingot | 1 Emerald |
-| 4 Iron Ingots | 1 Emerald |
-| 4 Emeralds | 1 Golden Apple |
-| 3 Emeralds | 1 Golden Carrot |
-| 7 Emeralds | 1 Golden Helmet |
-| 11 Emeralds | 1 Golden Chestplate |
-| 9 Emeralds | 1 Golden Leggings |
-| 5 Emeralds | 1 Golden Boots |
+## Features
+- **Native Villager Trade System** — same UI as real villagers
+- **Custom Skins** — unique look for each NPC
+- **Scrollable Trade List** — vanilla-style scrollable trade UI
+- **Takes Damage** — NPCs have 40 HP and react to hits
 
 ## Files
-- `GoldSmith_BP/` — Behavior Pack (entity, trades)
-- `GoldSmith_RP/` — Resource Pack (skin, textures)
-- `GoldSmith_NPC_v1.0.7.mcaddon` — Ready to install
+- `GoldSmith_BP/` — Behavior Pack (entities, trades)
+- `GoldSmith_RP/` — Resource Pack (skins, textures)
+- `ShopKeeper_Mod_v1.0.7.mcaddon` — Ready to install
 
 ## Version
-- **v1.0.7** — Native villager trade system, no scripts
-- **v1.0.6** — Previous version with script-based trade UI
+- **v1.0.7** — Native villager trade system, two NPCs, custom skins

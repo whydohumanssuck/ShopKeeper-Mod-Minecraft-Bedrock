@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-        "name": "Gold Smith NPC (Resource)",
-        "description": "Custom Gold Smith trader NPC skin/model - resource pack",
+        "name": "ShopKeeper Mod (Resource)",
+        "description": "Custom shop NPC skins and textures - resource pack",
         "uuid": "6836c4b4-837f-43d4-af22-cf0c30f5671b",
         "version": [1, 0, 7],
         "min_engine_version": [1, 21, 130]
