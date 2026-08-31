@@ -4,7 +4,7 @@
         {
             "groups": [
                 {
-                    "num_to_select": 9,
+                    "num_to_select": 1,
                     "trades": [
                         {
                             "wants": [
@@ -15,7 +15,12 @@
                             ],
                             "max_uses": 12,
                             "reward_exp": true
-                        },
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
                         {
                             "wants": [
                                 { "item": "minecraft:gold_ingot", "quantity": 1 }
@@ -25,7 +30,12 @@
                             ],
                             "max_uses": 12,
                             "reward_exp": true
-                        },
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
                         {
                             "wants": [
                                 { "item": "minecraft:iron_ingot", "quantity": 4 }
@@ -35,7 +45,12 @@
                             ],
                             "max_uses": 12,
                             "reward_exp": true
-                        },
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
                         {
                             "wants": [
                                 { "item": "minecraft:emerald", "quantity": 4 }
@@ -45,7 +60,12 @@
                             ],
                             "max_uses": 12,
                             "reward_exp": true
-                        },
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
                         {
                             "wants": [
                                 { "item": "minecraft:emerald", "quantity": 3 }
@@ -55,7 +75,12 @@
                             ],
                             "max_uses": 12,
                             "reward_exp": true
-                        },
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
                         {
                             "wants": [
                                 { "item": "minecraft:emerald", "quantity": 7 }
@@ -65,7 +90,12 @@
                             ],
                             "max_uses": 12,
                             "reward_exp": true
-                        },
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
                         {
                             "wants": [
                                 { "item": "minecraft:emerald", "quantity": 11 }
@@ -75,7 +105,12 @@
                             ],
                             "max_uses": 12,
                             "reward_exp": true
-                        },
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
                         {
                             "wants": [
                                 { "item": "minecraft:emerald", "quantity": 9 }
@@ -85,7 +120,12 @@
                             ],
                             "max_uses": 12,
                             "reward_exp": true
-                        },
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
                         {
                             "wants": [
                                 { "item": "minecraft:emerald", "quantity": 5 }
