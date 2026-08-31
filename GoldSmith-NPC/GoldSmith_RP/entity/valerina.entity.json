@@ -7,7 +7,7 @@
                 "default": "entity_alphatest"
             },
             "textures": {
-                "default": "textures/entity/gold_smith"
+                "default": "textures/entity/valerina"
             },
             "geometry": {
                 "default": "geometry.humanoid"
