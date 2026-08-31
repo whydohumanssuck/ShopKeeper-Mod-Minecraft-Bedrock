@@ -1,13 +1,13 @@
 # Gold Smith NPC — Bedrock Addon (1.21.130)
 
 A custom **Gold Smith** trader NPC for Minecraft Bedrock/PE **1.21.130**.
-Uses the honest-worker skin, shows a greeting on approach, and opens the
-**native villager trade screen** (with item icons, costs, and trade slots)
-when you hold/right-click.
+Uses the honest-worker skin, shows a "Talk" button when you get close, opens
+a greeting with a **Buy Items** option, and then opens the **native villager
+trade screen** (with item icons, costs, and trade slots).
 
 ## Install
 
-1. Open `GoldSmith_NPC_v1.0.3.mcaddon` — Minecraft imports both packs.
+1. Open `GoldSmith_NPC_v1.0.6.mcaddon` — Minecraft imports both packs.
 2. Enable **Beta APIs / Gametest Framework** in world settings (experimental tab).
 3. Activate both **Gold Smith NPC (Behavior)** and **Gold Smith NPC (Resource)**.
 4. Summon the NPC:
@@ -22,10 +22,12 @@ A gold/brown spawn egg is also in the Creative inventory.
 
 | Action | What Happens |
 |---|---|
-| **Walk within 4 blocks** | Greeting title: *"hey, sup long time no see what do you want today?"* |
-| **Tap / attack** | Same greeting title + the NPC takes no damage (unkillable) |
-| **Hold / right-click** | Opens the **villager trade screen** with all goldsmith trades |
-| **`/goldsmith`** | Shows the greeting in chat |
+| **Walk close to the NPC** | A **Talk** interaction button appears |
+| **Tap Talk** | Greeting dialogue: *"Hey Pal, what brings you here?"* with **Nothing** and **Buy Items** |
+| **Tap Buy Items** | NPC switches to shop mode; tap the NPC once more to open the **villager trade screen** |
+| **Tap the NPC in shop mode** | Opens the **native trade screen** with all goldsmith trades |
+| **Tap Nothing** | Closes the dialogue |
+| **Attack** | NPC takes no damage (unkillable) |
 
 ## Trades (shown in the native trade UI)
 

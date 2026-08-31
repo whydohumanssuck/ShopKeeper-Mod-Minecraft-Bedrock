@@ -3,41 +3,41 @@ import { MessageFormData } from "@minecraft/server-ui";
 
 const ID = "remotion:gold_smith";
 const CD = new Map();
+const CD_MS = 3000;
 
-function ok(p) {
-    const n = Date.now(), k = p.id + "_cd";
-    if (n - (CD.get(k) || 0) < 4000) return false;
-    CD.set(k, n); return true;
+function cooldown(p) {
+    const key = p.id;
+    const now = Date.now();
+    if (now - (CD.get(key) || 0) < CD_MS) return false;
+    CD.set(key, now);
+    return true;
 }
 
-function openGreeting(p) {
-    if (!ok(p)) return;
+function openGreeting(p, npc) {
+    if (!cooldown(p)) return;
     try {
         new MessageFormData()
             .title("Gold Smith")
             .body("Hey Pal, what brings you here?")
             .button1("Nothing")
             .button2("Buy Items")
-            .show(p).then(r => {
+            .show(p).then((r) => {
                 if (r.selection === 1) {
-                    p.sendMessage("\u00a76Gold Smith: Take a look, then hold to trade!");
+                    // Flip NPC into trade phase so the next tap opens the native trader UI.
+                    try {
+                        npc?.triggerEvent("remotion:open_shop");
+                    } catch (_) {}
+                    p.sendMessage("\u00a76Gold Smith: Ready to deal! Tap me once more to open the shop.");
                 }
             }).catch(() => {});
     } catch (_) {}
 }
 
-// Tap / hit → greeting (does not open native trade; native trade opens on hold)
-world.afterEvents.entityHitEntity.subscribe(e => {
+// Clicking the "Talk" interaction button fires this event on the player.
+world.afterEvents.playerInteractWithEntity.subscribe((e) => {
     try {
-        if (e.damagingEntity?.typeId !== "minecraft:player") return;
-        if (e.hitEntity.typeId === ID) openGreeting(e.damagingEntity);
-    } catch (_) {}
-});
-
-// Slash fallback
-world.afterEvents.chatSend.subscribe(e => {
-    try {
-        if (e.message.trim().toLowerCase() !== "/goldsmith") return;
-        openGreeting(e.sender);
+        if (e.target?.typeId !== ID) return;
+        const p = e.player;
+        if (p && p.typeId === "minecraft:player") openGreeting(p, e.target);
     } catch (_) {}
 });

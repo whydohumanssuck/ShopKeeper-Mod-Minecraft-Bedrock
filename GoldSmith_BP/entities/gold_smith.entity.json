@@ -70,39 +70,58 @@
                     }
                 ]
             },
-            "minecraft:persistent": {},
-            "minecraft:interact": {
-                "interactions": [
-                    {
-                        "on_interact": {
-                            "filters": {
-                                "all_of": [
-                                    {
-                                        "test": "is_family",
-                                        "subject": "other",
-                                        "value": "player"
-                                    }
-                                ]
+            "minecraft:persistent": {}
+        },
+        "component_groups": {
+            "talk_phase": {
+                "minecraft:interact": {
+                    "interactions": [
+                        {
+                            "on_interact": {
+                                "filters": {
+                                    "all_of": [
+                                        {
+                                            "test": "is_family",
+                                            "subject": "other",
+                                            "value": "player"
+                                        }
+                                    ]
+                                },
+                                "event": "minecraft:on_interact"
                             },
-                            "event": "minecraft:on_interact"
-                        },
-                        "interact_text": "Talk",
-                        "swing": true
-                    }
-                ]
+                            "interact_text": "Talk",
+                            "swing": true
+                        }
+                    ]
+                }
             },
-            "minecraft:trade_table": {
-                "table": "trading/gold_smith_trades.json"
-            },
-            "minecraft:behavior.trade_with_player": {
-                "priority": 1
+            "trade_phase": {
+                "minecraft:trade_table": {
+                    "table": "trading/gold_smith_trades.json"
+                },
+                "minecraft:behavior.trade_with_player": {
+                    "priority": 1
+                }
             }
         },
         "events": {
-            "minecraft:on_interact": {
-                "run_command": {
-                    "command": [
-                        "tellraw @a[tag=goldsmith_talked] {\"rawtext\":[{\"text\":\"Gold Smith: hey, sup long time no see what do you want today?\"}]}"
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "talk_phase"
+                    ]
+                }
+            },
+            "minecraft:on_interact": {},
+            "remotion:open_shop": {
+                "add": {
+                    "component_groups": [
+                        "trade_phase"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "talk_phase"
                     ]
                 }
             }
