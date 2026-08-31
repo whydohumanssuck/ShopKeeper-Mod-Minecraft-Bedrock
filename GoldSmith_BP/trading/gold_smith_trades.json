@@ -1,0 +1,104 @@
+{
+    "format_version": "1.20.40",
+    "tiers": [
+        {
+            "groups": [
+                {
+                    "num_to_select": 9,
+                    "trades": [
+                        {
+                            "wants": [
+                                { "item": "minecraft:raw_gold", "quantity": 1 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:emerald", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                { "item": "minecraft:gold_ingot", "quantity": 1 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:emerald", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                { "item": "minecraft:iron_ingot", "quantity": 4 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:emerald", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                { "item": "minecraft:emerald", "quantity": 4 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:golden_apple", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                { "item": "minecraft:emerald", "quantity": 3 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:golden_carrot", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                { "item": "minecraft:emerald", "quantity": 7 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:golden_helmet", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                { "item": "minecraft:emerald", "quantity": 11 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:golden_chestplate", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                { "item": "minecraft:emerald", "quantity": 9 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:golden_leggings", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        },
+                        {
+                            "wants": [
+                                { "item": "minecraft:emerald", "quantity": 5 }
+                            ],
+                            "gives": [
+                                { "item": "minecraft:golden_boots", "quantity": 1 }
+                            ],
+                            "max_uses": 12,
+                            "reward_exp": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
