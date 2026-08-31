@@ -1,3 +1,11 @@
+<div align="center">
+
+![ShopKeeper Mod Banner](docs/banner.jpg)
+
+> **This mod adds multiple shops and currency system in your world**
+
+</div>
+
 # ShopKeeper Mod : Minecraft-Bedrock
 
 Custom shop NPC addon for Minecraft Bedrock/PE 1.21.130 with native villager trade system.
