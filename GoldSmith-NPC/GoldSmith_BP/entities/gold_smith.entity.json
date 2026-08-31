@@ -12,13 +12,11 @@
         },
         "components": {
             "minecraft:type_family": {
-                "family": ["goldsmith", "merchant", "mob"]
-            },
-            "minecraft:trade_table": {
-                "table": "trading/gold_smith_trades.json"
-            },
-            "minecraft:behavior.trade_with_player": {
-                "priority": 1
+                "family": [
+                    "goldsmith",
+                    "merchant",
+                    "mob"
+                ]
             },
             "minecraft:behavior.look_at_player": {
                 "priority": 7,
@@ -63,7 +61,37 @@
                 "is_pushable": true,
                 "is_pushable_by_piston": true
             },
-            "minecraft:conditional_bandwidth_optimization": {}
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:persistent": {},
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "event": "minecraft:on_interact"
+                        }
+                    }
+                ]
+            }
+        },
+        "events": {
+            "minecraft:on_interact": {}
         }
     }
 }

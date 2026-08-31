@@ -10,7 +10,7 @@
                 "default": "textures/entity/gold_smith"
             },
             "geometry": {
-                "default": "geometry.humanoid.custom"
+                "default": "geometry.humanoid"
             },
             "animations": {
                 "look_at_target": "animation.humanoid.look_at_target.default",
@@ -18,17 +18,17 @@
             },
             "scripts": {
                 "animate": [
-                    { "look_at_target": "query.is_alive" },
-                    { "move": "query.modified_move_speed" }
+                    {
+                        "look_at_target": "query.is_alive"
+                    },
+                    {
+                        "move": "query.modified_move_speed"
+                    }
                 ]
             },
             "render_controllers": [
-                "controller.render.humanoid"
-            ],
-            "spawn_egg": {
-                "base_color": "#FFD700",
-                "overlay_color": "#8B4513"
-            }
+                "controller.render.gold_smith"
+            ]
         }
     }
 }
