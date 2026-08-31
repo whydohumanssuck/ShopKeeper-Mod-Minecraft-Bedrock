@@ -1,44 +1,38 @@
-# Gold Smith NPC — Bedrock Addon (1.21.130)
+# Gold Smith NPC Addon
 
-A custom **Gold Smith** trader NPC for Minecraft Bedrock/PE **1.21.130**.
-Uses your honest-worker skin, greets the player with a dialogue, and opens a
-custom shop menu (script-driven, not the vanilla villager screen).
-
-## Install
-
-1. Open `GoldSmith_NPC_v1.0.1.mcaddon` — Minecraft imports both packs.
-2. Activate **Gold Smith NPC (Behavior)** and **Gold Smith NPC (Resource)** in the world.
-3. Summon the NPC:
-
-```
-/summon remotion:gold_smith
-```
-
-A gold/brown **spawn egg** is also in the Creative inventory.
+A custom Gold Smith trader NPC addon for Minecraft Bedrock/PE 1.21.130.
 
 ## Features
+- **Native Villager Trade System** — Hold/right-click to open the trade screen (just like real villagers)
+- **Takes Damage** — Hit the entity and it takes damage (40 HP)
+- **9 Gold-Themed Trades** — Buy/sell gold items, emeralds, golden armor, and more
+- **Custom Skin** — Honest worker skin, no villager sounds
 
-- **Dialogue on interact**: tap/right-click the NPC → popup:
-  *"hey, sup long time no see what do you want today?"*
-- **Buy items** button → custom shop menu (not the villager trade screen).
-- NPC is **silent** (no villager voice) and **unkillable** (damage sensor).
+## How to Use
+1. Install the `.mcaddon` file in Minecraft
+2. Enable both Behavior and Resource packs in your world
+3. Summon the NPC: `/summon remotion:gold_smith`
+4. Hold/right-click on him to open the trade screen
+5. Hit him to deal damage
 
-## Shop (emeralds)
+## Trades
+| You Give | You Get |
+|----------|---------|
+| 1 Raw Gold | 1 Emerald |
+| 1 Gold Ingot | 1 Emerald |
+| 4 Iron Ingots | 1 Emerald |
+| 4 Emeralds | 1 Golden Apple |
+| 3 Emeralds | 1 Golden Carrot |
+| 7 Emeralds | 1 Golden Helmet |
+| 11 Emeralds | 1 Golden Chestplate |
+| 9 Emeralds | 1 Golden Leggings |
+| 5 Emeralds | 1 Golden Boots |
 
-| Item | Cost |
-|---|---|
-| Golden Apple | 4 |
-| Golden Carrot | 3 |
-| Gold Helmet | 7 |
-| Gold Chestplate | 11 |
-| Gold Leggings | 9 |
-| Gold Boots | 5 |
-| Bell | 36 |
+## Files
+- `GoldSmith_BP/` — Behavior Pack (entity, trades)
+- `GoldSmith_RP/` — Resource Pack (skin, textures)
+- `GoldSmith_NPC_v1.0.7.mcaddon` — Ready to install
 
-Emeralds are taken from the player's inventory; the item is given (drops if inventory full).
-
-## Notes
-
-- Requires **experimental "Beta APIs / Gametest Framework"** enabled in world settings
-  (script-based shop), or the dialogue won't appear.
-- Custom shop UI is the only way to get a real dialogue + buy flow on Bedrock.
+## Version
+- **v1.0.7** — Native villager trade system, no scripts
+- **v1.0.6** — Previous version with script-based trade UI

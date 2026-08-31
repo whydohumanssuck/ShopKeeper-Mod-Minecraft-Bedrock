@@ -12,11 +12,7 @@
         },
         "components": {
             "minecraft:type_family": {
-                "family": [
-                    "goldsmith",
-                    "merchant",
-                    "mob"
-                ]
+                "family": ["goldsmith", "merchant", "mob"]
             },
             "minecraft:behavior.look_at_player": {
                 "priority": 7,
@@ -29,6 +25,13 @@
             },
             "minecraft:behavior.random_look_around": {
                 "priority": 9
+            },
+            "minecraft:behavior.trade_with_player": {
+                "priority": 1
+            },
+            "minecraft:trade_table": {
+                "table": "trading/gold_smith_trades.json",
+                "display_name": "GoldSmith - William Roger"
             },
             "minecraft:nameable": {
                 "allow_name_tag_renaming": true,
@@ -62,36 +65,7 @@
                 "is_pushable_by_piston": true
             },
             "minecraft:conditional_bandwidth_optimization": {},
-            "minecraft:damage_sensor": {
-                "triggers": [
-                    {
-                        "cause": "all",
-                        "deals_damage": false
-                    }
-                ]
-            },
-            "minecraft:persistent": {},
-            "minecraft:interact": {
-                "interactions": [
-                    {
-                        "on_interact": {
-                            "filters": {
-                                "all_of": [
-                                    {
-                                        "test": "is_family",
-                                        "subject": "other",
-                                        "value": "player"
-                                    }
-                                ]
-                            },
-                            "event": "minecraft:on_interact"
-                        }
-                    }
-                ]
-            }
-        },
-        "events": {
-            "minecraft:on_interact": {}
+            "minecraft:persistent": {}
         }
     }
 }
