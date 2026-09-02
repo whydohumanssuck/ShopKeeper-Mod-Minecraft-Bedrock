@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "remotion:mason_petra",
+            "identifier": "david:mason_petra",
             "materials": {
                 "default": "entity_alphatest"
             },

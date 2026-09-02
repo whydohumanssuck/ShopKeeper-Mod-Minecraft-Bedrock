@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:entity": {
         "description": {
-            "identifier": "remotion:valerina",
+            "identifier": "david:valerina",
             "is_spawnable": true,
             "is_summonable": true,
             "spawn_egg": {

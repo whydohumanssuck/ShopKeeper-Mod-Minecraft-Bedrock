@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "remotion:timber_jack",
+            "identifier": "david:timber_jack",
             "materials": {
                 "default": "entity_alphatest"
             },

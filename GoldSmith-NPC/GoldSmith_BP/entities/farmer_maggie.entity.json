@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:entity": {
         "description": {
-            "identifier": "remotion:farmer_maggie",
+            "identifier": "david:farmer_maggie",
             "is_spawnable": true,
             "is_summonable": true,
             "spawn_egg": {

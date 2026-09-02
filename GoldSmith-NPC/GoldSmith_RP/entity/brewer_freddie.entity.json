@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "remotion:brewer_freddie",
+            "identifier": "david:brewer_freddie",
             "materials": {
                 "default": "entity_alphatest"
             },

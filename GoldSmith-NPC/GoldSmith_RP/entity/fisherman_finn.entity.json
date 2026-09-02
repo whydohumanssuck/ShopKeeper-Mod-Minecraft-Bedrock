@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "remotion:fisherman_finn",
+            "identifier": "david:fisherman_finn",
             "materials": {
                 "default": "entity_alphatest"
             },

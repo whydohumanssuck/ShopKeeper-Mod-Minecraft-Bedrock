@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "remotion:diver_dana",
+            "identifier": "david:diver_dana",
             "materials": {
                 "default": "entity_alphatest"
             },
